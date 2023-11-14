@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  hivemq-edge1:
+    image: hivemq/hivemq-edge
+    container_name: hivemq-edge-1
+    ports:
+      - "11883:1883"   # MQTT port
+      - "18883:8883"   # MQTT-TLS/SSL port
+      - "8081:8080"   # Web UI port
+    volumes:
+      - ./config:/opt/hivemq/conf
+      - ./data:/opt/hivemq/data
+      - ./log:/opt/hivemq/log
+    environment:
+      - HIVEMQ_LOG_LEVEL=INFO
+      # Add other environment variables as needed for HiveMQ Edge
+
+  hivemq-edge2:
+    image: hivemq/hivemq-edge
+    container_name: hivemq-edge-2
+    ports:
+      - "21883:1883"   # MQTT port
+      - "28883:8883"   # MQTT-TLS/SSL port
+      - "8082:8080"   # Web UI port
+    volumes:
+      - ./config2:/opt/hivemq/conf
+      - ./data2:/opt/hivemq/data
+      - ./log2:/opt/hivemq/log
+    environment:
+      - HIVEMQ_LOG_LEVEL=INFO
+

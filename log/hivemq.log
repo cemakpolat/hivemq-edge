@@ -1,0 +1,64 @@
+2023-07-20 13:25:30,508 INFO  - HiveMQ Edge Version: 2023.1
+2023-07-20 13:25:30,508 INFO  - HiveMQ home directory: /opt/hivemq
+2023-07-20 13:25:30,509 INFO  - Log Configuration was overridden by /opt/hivemq/conf/logback.xml
+2023-07-20 13:25:30,918 INFO  - Starting HiveMQ extension system.
+2023-07-20 13:25:30,965 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-07-20 13:25:30,970 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-07-20 13:25:30,992 INFO  - Loaded 2 protocol adapters: ['ModBus TCP', 'OPC-UA Client']
+2023-07-20 13:25:31,042 WARN  - Unknown channel option 'SO_REUSEADDR' for channel '[id: 0x29d6d853]'
+2023-07-20 13:25:31,042 WARN  - Unknown channel option 'SO_BROADCAST' for channel '[id: 0x29d6d853]'
+2023-07-20 13:25:31,076 INFO  - Started MQTT TCP Listener on address 0.0.0.0 and on port 1883
+2023-07-20 13:25:31,076 INFO  - Started MQTT-SN UDP Listener on address 0.0.0.0 and on port 2442
+2023-07-20 13:25:31,414 INFO  - Started WebServer with protocol 'http' on port 8080 in 337ms
+2023-07-20 13:25:31,415 INFO  - Started HiveMQ in 908ms
+2023-07-20 13:25:44,599 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
+2023-07-20 13:26:09,988 INFO  - HiveMQ Edge Version: 2023.1
+2023-07-20 13:26:09,988 INFO  - HiveMQ home directory: /opt/hivemq
+2023-07-20 13:26:09,989 INFO  - Log Configuration was overridden by /opt/hivemq/conf/logback.xml
+2023-07-20 13:26:10,380 INFO  - Starting HiveMQ extension system.
+2023-07-20 13:26:10,418 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-07-20 13:26:10,430 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-07-20 13:26:10,446 INFO  - Loaded 2 protocol adapters: ['ModBus TCP', 'OPC-UA Client']
+2023-07-20 13:26:10,506 WARN  - Unknown channel option 'SO_REUSEADDR' for channel '[id: 0xf669b71d]'
+2023-07-20 13:26:10,506 WARN  - Unknown channel option 'SO_BROADCAST' for channel '[id: 0xf669b71d]'
+2023-07-20 13:26:10,532 INFO  - Started MQTT TCP Listener on address 0.0.0.0 and on port 1883
+2023-07-20 13:26:10,532 INFO  - Started MQTT-SN UDP Listener on address 0.0.0.0 and on port 2442
+2023-07-20 13:26:10,969 INFO  - Started WebServer with protocol 'http' on port 8080 in 435ms
+2023-07-20 13:26:10,969 INFO  - Started HiveMQ in 984ms
+2023-07-20 13:26:47,201 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
+2023-07-20 13:30:17,079 INFO  - HiveMQ Edge Version: 2023.1
+2023-07-20 13:30:17,079 INFO  - HiveMQ home directory: /opt/hivemq
+2023-07-20 13:30:17,080 INFO  - Log Configuration was overridden by /opt/hivemq/conf/logback.xml
+2023-07-20 13:30:17,469 INFO  - Starting HiveMQ extension system.
+2023-07-20 13:30:17,510 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2023-07-20 13:30:17,511 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2023-07-20 13:30:17,516 INFO  - Loaded 2 protocol adapters: ['ModBus TCP', 'OPC-UA Client']
+2023-07-20 13:30:17,585 WARN  - Unknown channel option 'SO_REUSEADDR' for channel '[id: 0x3ab9922e]'
+2023-07-20 13:30:17,590 WARN  - Unknown channel option 'SO_BROADCAST' for channel '[id: 0x3ab9922e]'
+2023-07-20 13:30:17,628 INFO  - Started MQTT TCP Listener on address 0.0.0.0 and on port 1883
+2023-07-20 13:30:17,628 INFO  - Started MQTT-SN UDP Listener on address 0.0.0.0 and on port 2442
+2023-07-20 13:30:18,072 INFO  - Started WebServer with protocol 'http' on port 8080 in 442ms
+2023-07-20 13:30:18,072 INFO  - Started HiveMQ in 995ms
+2023-07-20 13:32:20,180 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
+2023-07-20 13:32:22,198 INFO  - Stopped HTTP server /0.0.0.0:8080
+2023-07-20 13:32:22,423 INFO  - Shutting down extension system
+2023-07-20 13:32:22,426 INFO  - Extension "Allow All Extension" version 1.0.0 stopped successfully.
+2023-07-20 13:32:22,981 INFO  - Shutdown completed.
